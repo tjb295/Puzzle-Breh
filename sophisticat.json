@@ -1,0 +1,30 @@
+{"frames": {
+
+"sophisticat1.png":
+{
+	"frame": {"x":0,"y":0,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"sophisticat2.png":
+{
+	"frame": {"x":40,"y":0,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sophisticat.png",
+	"format": "RGBA8888",
+	"size": {"w":80,"h":40},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:10a6fb1da5d0cb6d22cfd8b7d2fea121:01368d675229ed1359459756a557aa26:121a5a7dabcd8a442579617d7dd37b26$"
+}
+}
