@@ -19,6 +19,7 @@ main_menu.addChild(instructions);
 instructions.position.x = 30;
 instructions.position.y = 300;
 //create score counter
+
 var timer = new PIXI.Text('0',{font : '24px Arial', fill : 0xff1010, align : 'center'});
 var endtile = new PIXI.Sprite(PIXI.Texture.fromImage("./assets/endgame.png"));
 endtile.anchor.x = 0.5;
@@ -26,6 +27,7 @@ endtile.anchor.y = 0.5;
 endtile.position.x = 380;
 endtile.position.y = 60;
 //create sprites
+
 var redcup = new PIXI.Sprite(PIXI.Texture.fromImage("./assets/redcup.png"));
 redcup.position.x = 340;
 redcup.position.y = 260;
@@ -77,6 +79,7 @@ function soundready(){
     theme.play();
 }
 var blockarr = [];
+
 //begin rendering the maze
 function maze_render(){
     
@@ -214,13 +217,7 @@ function keydownEventHandler(e){
             
         }
        
-        
-        
-       
-        
-        
     }
-
     
 }
 //start screen first
